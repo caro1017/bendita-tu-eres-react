@@ -1,3 +1,3 @@
 export const Images = {
-    logo: "/public/logo/LogoBendita.svg"
+    logo: "../../../public/LogoBendita.svg"
 }

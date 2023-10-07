@@ -1,0 +1,31 @@
+.select-wrapper input.select-dropdown{
+    border-bottom: 1px solid #E8AEB1;
+    margin-bottom: 5rem;
+    color: #97989A;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+    color: #E8AEB1;
+}
+
+.dropdown-content li>a, .dropdown-content li>span:hover{
+    background-color: #E8AEB1;
+    color: #fff;
+}
+
+
+.style-select {
+    width: 20rem;
+}
+
+.custom-select-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

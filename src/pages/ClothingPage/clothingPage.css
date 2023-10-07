@@ -1,0 +1,17 @@
+.style-button-page {
+    text-align: center;
+}
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-card {
+
+    @media (max-width: 500px) {
+        flex: 0 0 calc(50% - 0);
+        margin-left: 0;
+    }
+}

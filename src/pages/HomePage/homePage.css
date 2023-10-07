@@ -1,0 +1,98 @@
+.containerStyled {
+    display: flex;
+
+    @media screen and (max-width: 500px) {
+        display: block;
+    }
+}
+
+.contentStyled {
+    flex: 1;
+    padding-right: 20px;
+    text-transform: uppercase;
+    margin: 10rem 15rem 0;
+    letter-spacing: 3.2px;
+
+    @media screen and (max-width: 768px) {
+        margin: 10rem 1rem 0;
+    }
+
+    @media screen and (max-width: 500px) {
+        margin: 1rem 0.5rem 0;
+    }
+}
+
+.textStyled {
+    font-size: 64px;
+    color: #97989A;
+    font-weight: 600;
+    margin: 0;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 25px;
+        margin: 6rem 1rem;
+    }
+}
+
+
+.textStyledCenter {
+    color: #E8AEB1;
+    font-weight: 500;
+    font-size: 64px;
+    margin: 0;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 25px;
+        margin: 6rem 1rem;
+    }
+}
+
+.textStyledCenter:hover {
+    text-decoration: line-through;
+}
+
+.contentTitle {
+    margin-bottom: 5rem;
+
+    @media screen and (max-width: 500px) {
+        display: flex;
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+}
+
+.contentButton {
+    @media screen and (max-width: 500px) {
+        position: absolute;
+        margin: 21rem 21rem 0;
+    }
+}
+
+.contentIcon {
+    margin-top: 5rem;
+
+    @media screen and (max-width: 500px) {
+        position: absolute;
+        z-index: 100;
+        margin-top: 25rem;
+        margin-left: 20rem;
+    }
+}
+
+.contentIcon a {
+    margin-left: 1rem;
+    color: #97989A;
+    font-size: 1.5rem;
+}
+
+.contentIcon a:hover{
+    color: #E8AEB1;
+}

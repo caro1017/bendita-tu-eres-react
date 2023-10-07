@@ -1,0 +1,18 @@
+.card {
+    width: 20rem;
+
+}
+
+.card-icon {
+    background-color: #E8AEB1;
+}
+
+.card-icon:hover{
+    background-color: #97989A;
+}
+
+.card-content {
+    color: #97989A;
+}
+
+

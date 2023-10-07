@@ -1,0 +1,25 @@
+.content_button_contact {
+    @media screen and (max-width: 500px) {
+        position: absolute;
+        margin: 21rem 19rem 0;
+    }
+}
+
+.textStyledHorario {
+    color: #97989A;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1rem;
+        margin-bottom: 6rem;
+    }
+
+}
+
+.contact_horario {
+    @media screen and (max-width: 500px) {
+        margin: -7rem 4rem 0 ;
+    }
+}

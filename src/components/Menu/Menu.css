@@ -1,0 +1,79 @@
+.nav-style {
+    box-shadow: none;
+    background-color: white;
+
+    position: fixed;
+    z-index: 200;
+    height: 5.5rem;
+    margin-top: -1rem;
+}
+
+
+.brand-logo img {
+    width: 40%;
+    margin-top: 1.2rem;
+    margin-left: 5rem;
+
+    @media screen and (max-width: 500px) {
+        width: 60%;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+    }
+
+}
+
+.material-icons {
+    color: #E8AEB1;
+}
+
+.icon-menu {
+    @media screen and (max-width: 769px) {
+        margin-top: 0.7rem;
+    }
+
+    @media screen and (max-width: 500px){
+        margin-top: 1rem;
+    }
+}
+
+.nav-link li a {
+    color: #97989A;
+    margin-top: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-link li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 60%;
+    left: 1rem;
+    background-color: #E8AEB1;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0);
+}
+
+.nav-link li a:hover::after {
+    transform: scale(1);
+}
+
+.nav-link li:first-child {
+    margin-left: 35rem;
+
+    @media screen and (max-width: 769px) {
+        margin-left: 0;
+    }
+}
+
+
+.nav-link li a:hover {
+    background-color: transparent;
+    color: #E8AEB1;
+}

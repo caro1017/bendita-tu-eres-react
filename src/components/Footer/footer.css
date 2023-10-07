@@ -1,0 +1,111 @@
+.container-nav {
+    text-align: left;
+    list-style: none;
+    letter-spacing: 0.75px;
+}
+
+.style-ul li a {
+    color: #97989A;
+    margin-top: 2px;
+    font-weight: 500;
+
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+
+.style-ul li a:hover {
+    color: #E8AEB1;
+}
+
+.style-ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1.5px;
+    width: 100%;
+    left: 0;
+    background-color: #E8AEB1;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0);
+}
+
+.style-ul li a:hover::after {
+    transform: scale(1);
+}
+
+.style_logo_footer {
+    margin-left: 12rem;
+    width: 30%;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 8rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+}
+
+.content-icon-footer {
+    width: 10rem;
+    margin-left: 30rem;
+    margin-top: 3rem;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 18rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        margin-left: 8.5rem;
+    }
+}
+
+.content-icon-footer a {
+    margin-left: 1rem;
+    color: #97989A;
+    font-size: 1.5rem;
+}
+
+.content-icon-footer a:hover {
+    color: #E8AEB1;
+}
+
+
+.container-autor {
+    margin-left: 20rem;
+    padding: 1rem;
+
+
+    @media screen and (max-width: 768px) {
+        margin-left: 8rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        margin-left: 1rem;
+    }
+}
+
+.container-autor p {
+    color: #E8AEB1;
+    font-size: 20px;
+    font-weight: 400;
+
+    @media screen and (max-width: 500px) {
+        font-size: 15px;
+    }
+
+}
+
+.container-autor span {
+    font-family: 'Dancing Script', cursive;
+    color: #97989A;
+    padding: 0.5rem;
+    font-size: 25px;
+
+    @media screen and (max-width: 500px) {
+        font-size: 20px;
+    }
+}

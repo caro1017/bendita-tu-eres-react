@@ -1,0 +1,38 @@
+/* Estilos para escritorio */
+.desktop-image {
+    display: block;
+    width: auto;
+    height: 636px;
+    margin-top: 4.7rem;
+}
+
+.tablet-image,
+.mobile-image {
+    display: none;
+}
+
+/* Estilos para tablet */
+@media screen and (max-width: 768px) {
+    .tablet-image {
+        display: block;
+        margin-top: 4.7rem;
+    }
+
+    .desktop-image,
+    .mobile-image {
+        display: none;
+    }
+}
+
+/* Estilos para móvil */
+@media screen and (max-width: 500px) {
+    .mobile-image {
+        display: block;
+        margin-top: -4.5rem;
+    }
+
+    .desktop-image,
+    .tablet-image {
+        display: none;
+    }
+}

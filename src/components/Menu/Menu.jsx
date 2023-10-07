@@ -1,4 +1,4 @@
-
+import { Image } from "../../../image";
 import { useState, useEffect } from "react";
 
 import { Link, Route, Routes } from "react-router-dom";
@@ -47,7 +47,7 @@ export const Menu = () => {
       <nav className="nav-style nav-wrapper">
         {/* Logo */}
         <Link to="/" className="brand-logo">
-          <img src="/src/assets/img/logo/LogoBendita.svg" alt="Logo" />
+          <img src={Image.logo} alt="Logo" />
         </Link>
         {/* Menu hamburguesa */}
         <Link to="#" data-target="mobile-demo" className="sidenav-trigger left">

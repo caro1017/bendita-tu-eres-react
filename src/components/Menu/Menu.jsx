@@ -46,7 +46,7 @@ export const Menu = () => {
       <nav className="nav-style nav-wrapper">
         {/* Logo */}
         <Link to="/" className="brand-logo">
-          <img src="../../../public/logo/LogoBendita.svg" alt="Logo" />
+          <img src="/public/logo/LogoBendita.svg" alt="Logo" />
         </Link>
         {/* Menu hamburguesa */}
         <Link to="#" data-target="mobile-demo" className="sidenav-trigger left">

@@ -40,9 +40,9 @@ const HomePage = () => {
           </div>
         </div>
         <ImgHome
-          srcEscritorio="../../../public/header/img_home.png"
-          srcTablet="../../../public/header/img_home_tablet.png"
-          srcMovil= "../../../public/header/img_home_movil.png"
+          srcEscritorio="/public/header/img_home.png"
+          srcTablet="/public/header/img_home_tablet.png"
+          srcMovil= "/public/header/img_home_movil.png"
         />
       </div>
     </>

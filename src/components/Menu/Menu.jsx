@@ -8,7 +8,7 @@ import SunLinePage from "../../pages/SunLinePage/SunLinePage";
 import ContactPage from "../../pages/ContactPage/ContactPage";
 
 import "./Menu.css";
-import { Images } from "../Images/Images";
+import Logo from "../../../public/logo/LogoBendita.svg";
 
 const menuItems = [
   { label: "Inicio", path: "/" },
@@ -47,7 +47,7 @@ export const Menu = () => {
       <nav className="nav-style nav-wrapper">
         {/* Logo */}
         <Link to="/" className="brand-logo">
-          <img src={Images.logo} alt="Logo" />
+          <img src={Logo} alt="Logo" />
         </Link>
         {/* Menu hamburguesa */}
         <Link to="#" data-target="mobile-demo" className="sidenav-trigger left">

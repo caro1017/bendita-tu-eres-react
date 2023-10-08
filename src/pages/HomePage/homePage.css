@@ -33,7 +33,7 @@
 
     @media screen and (max-width: 500px) {
         font-size: 25px;
-        margin: 8rem 1rem;
+        margin: 8rem 0.5rem;
     }
 }
 

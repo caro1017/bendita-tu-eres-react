@@ -28,7 +28,7 @@
 @media screen and (max-width: 500px) {
     .mobile-image {
         display: block;
-        margin-top: -4.5rem;
+        margin-top: -6rem;
     }
 
     .desktop-image,

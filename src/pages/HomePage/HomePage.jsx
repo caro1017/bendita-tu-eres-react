@@ -40,6 +40,7 @@ const HomePage = () => {
             </a>
           </div>
         </div>
+        
         <ImgHome
           srcEscritorio={Images.homeDest}
           srcTablet={Images.homeTablet}

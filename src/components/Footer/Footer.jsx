@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./footer.css";
+import { Images } from "../Images/Images";
 
 const menuItemsLeft = [
   { label: "Ropa", path: "/ropa" },
@@ -41,7 +42,7 @@ const Footer = () => {
           <div className="left">{renderMenuItemsLeft()}</div>
           <img
             className="style_logo_footer"
-            src="../../../public/logo/LogoBendita.svg"
+            src={Images.logo}
             alt="logo"
           />
           <div className="right">{renderMenuItemsRight()}</div>

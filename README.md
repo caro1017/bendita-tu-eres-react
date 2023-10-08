@@ -1,6 +1,6 @@
-# App Nasa
+# Bendita Tu Eres
 
-<img width="700" alt="prototipo" src="https://i.postimg.cc/0ygrS6zG/Desktop.png">
+<img width="700" alt="prototipo" src="https://i.postimg.cc/63MXJqmw/Escritorio.png">
 
 _Pagina para revisar las diferentes imagenes satelitales de la Nasa _
 
@@ -10,24 +10,25 @@ _Las herramientas con las que se construyo el proyecto son_
 
 - [Visual Studio Code](https://code.visualstudio.com/) - IDE Para la creacion del proyecto
 - [React](https://sass-lang.com/) - Framework
-- [Material UI](https://necolas.github.io/normalize.css/) - Experiencia de usuario
-- [Api Nasa](https://api.nasa.gov/) - Api consumida para generar la informacion del clima
+- [Materialize](https://materializecss.com/getting-started.html) - Experiencia de usuario
 
 ## Requerimientos 📄
 
 Este proyecto cumple los siqueintes requerimientos:
 
 - Diseño responsive
-- Busqueda de fecha deseada
-- Entrega informacion de la imagen satelital
+- Carrito de compra
+- Mostrar productos
+- Buscador de productos
 - Botones
 
   `Buscar`
+  `Add Carrito`
 
 ## Despliegue 📦
 
-- [Figma](https://www.figma.com/proto/9XETHLfSGMgKOozoMJ75tn/API-Nasa?type=design&node-id=129-139&t=0YZusSNEAoVr9cCr-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=129%3A139) - Prototipo visual
-- [AppNasa](https://app-nasa-react.vercel.app/) - Pagina web
+- [Figma](https://www.figma.com/proto/EeG5KUvB9tCrkMm4D8NdE9/Bendita_tu_eres?type=design&node-id=253-122&t=ZXFpBp7soaIOs8BZ-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=253%3A122) - Prototipo visual
+- [web](bendita-tu-eres-react.vercel.app) - Pagina web
 
 ## Autor ✒️
 

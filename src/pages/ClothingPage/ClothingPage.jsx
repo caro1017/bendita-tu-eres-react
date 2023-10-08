@@ -1,4 +1,5 @@
 import "./clothingPage.css";
+import { Images } from "../../components/Images/Images";
 
 import { useState } from "react";
 import { useCart } from "../../components/CartContext/CartContext";
@@ -8,8 +9,6 @@ import SearchBar from "../../components/SearchBar/SearchBar";
 import Cards from "../../components/Card/Cards";
 import ShoppingCart from "../../components/ShoppingCart/ShoppingCart";
 import Footer from "../../components/Footer/Footer";
-
-
 
 /* Imoprtar los datos que contiene la informacion especifica de ropa */
 import { cardDataClothing } from "../../data/data";
@@ -35,7 +34,7 @@ const ClothingPage = () => {
         countProducts={countProducts}
         setCountProducts={setCountProducts}
       />
-      <Header src="../../../public/header/imgClotingDest.png" title="ropa" />
+      <Header src={Images.headerCloting} title="ropa" />
 
       <main>
         <div className="style-searchBar">
@@ -71,7 +70,7 @@ const ClothingPage = () => {
               (card) => card.category === selectedCategory
             ).length === 0 && (
               <div className="container">
-                <img src="../../../public/error/Error2.svg" />
+                <img src={Images.error} />
               </div>
             )}
         </div>

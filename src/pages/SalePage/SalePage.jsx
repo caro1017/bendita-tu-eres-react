@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useCart } from "../../components/CartContext/CartContext";
+import { Images } from "../../components/Images/Images";
 
 import Header from "../../components/Header/Header";
 import SearchBar from "../../components/SearchBar/SearchBar";
@@ -28,7 +29,7 @@ const SalePage = () => {
         countProducts={countProducts}
         setCountProducts={setCountProducts}
       />
-      <Header src="../../../public/header/imgSaldos.png" title="saldos" />
+      <Header src={Images.headerSale} title="saldos" />
 
       <main>
         <div className="style-searchBar">
@@ -62,7 +63,7 @@ const SalePage = () => {
             cardDataSale.filter((card) => card.category === selectedCategory)
               .length === 0 && (
               <div className="container">
-                <img src="../../../public/error/Error2.svg" />
+                <img src={Images.error} />
               </div>
             )}
         </div>

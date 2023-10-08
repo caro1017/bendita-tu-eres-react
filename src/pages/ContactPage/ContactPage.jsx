@@ -2,6 +2,7 @@ import ImgHome from "../../components/Images/ImgHome";
 import Title from "../../components/Title/Title";
 import { Buttons } from "../../components/Button/Buttons";
 import "./contactPage.css";
+import { Images } from "../../components/Images/Images";
 
 const ContactPage = () => {
   return (
@@ -37,9 +38,9 @@ const ContactPage = () => {
         </div>
 
         <ImgHome
-          srcEscritorio="../../../public/header/img_home_contact.png"
-          srcTablet="../../../public/header/img_tablet_contact.png"
-          srcMovil="../../../public/header/img_movil_contact.png"
+          srcEscritorio={Images.contactDest}
+          srcTablet={Images.contactTablet}
+          srcMovil={Images.contactMovil}
         />
       </div>
     </>

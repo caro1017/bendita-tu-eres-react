@@ -1,5 +1,3 @@
-
-
 import ImgHome from "../../components/Images/ImgHome";
 import Title from "../../components/Title/Title";
 import { Buttons } from "../../components/Button/Buttons";
@@ -7,6 +5,7 @@ import { Buttons } from "../../components/Button/Buttons";
 import { useNavigate } from "react-router";
 
 import "./homePage.css";
+import { Images } from "../../components/Images/Images";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -42,9 +41,9 @@ const HomePage = () => {
           </div>
         </div>
         <ImgHome
-          srcEscritorio="../../../src/assets/img/header/img_home.png"
-          srcTablet="../../../src/assets/img/header/img_home_tablet.png"
-          srcMovil= "../../../src/assets/img/header/img_home_movil.png"
+          srcEscritorio={Images.homeDest}
+          srcTablet={Images.homeTablet}
+          srcMovil= {Images.homeMovil}
         />
       </div>
     </>

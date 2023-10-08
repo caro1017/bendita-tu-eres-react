@@ -1,4 +1,3 @@
-import { Image } from "../Images/Images";
 import { useState, useEffect } from "react";
 
 import { Link, Route, Routes } from "react-router-dom";
@@ -9,6 +8,7 @@ import SunLinePage from "../../pages/SunLinePage/SunLinePage";
 import ContactPage from "../../pages/ContactPage/ContactPage";
 
 import "./Menu.css";
+import { Images } from "../Images/Images";
 
 const menuItems = [
   { label: "Inicio", path: "/" },
@@ -47,7 +47,7 @@ export const Menu = () => {
       <nav className="nav-style nav-wrapper">
         {/* Logo */}
         <Link to="/" className="brand-logo">
-          <img src={Image.logo} alt="Logo" />
+          <img src={Images.logo} alt="Logo" />
         </Link>
         {/* Menu hamburguesa */}
         <Link to="#" data-target="mobile-demo" className="sidenav-trigger left">

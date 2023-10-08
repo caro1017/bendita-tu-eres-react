@@ -2,7 +2,7 @@
 
 <img width="700" alt="prototipo" src="https://i.postimg.cc/63MXJqmw/Escritorio.png">
 
-_Pagina para revisar las diferentes imagenes satelitales de la Nasa _
+_Pagina tipo E- Comerce sencilla  _
 
 ## Construido con 🛠️
 

@@ -36,7 +36,7 @@ const SalePage = () => {
           <SearchBar onCategoryChange={handleCategoryChange} />
         </div>
 
-        <div className="container container-card">
+        <div className="row container container-card">
           {cardDataSale
             .filter(
               (card) =>

@@ -168,7 +168,7 @@ import sale006 from "../../public/product/saldos/saldo006.jpeg"
 export const cardDataSale = [
   {
     id: uuidv4(),
-    title: "Crop Top Paz",
+    title: "Top Paz",
     price: 30000,
     imageUrl: sale001,
     category: "cropTop",
@@ -176,7 +176,7 @@ export const cardDataSale = [
   },
   {
     id: uuidv4(),
-    title: "Crop Top Serenidad",
+    title: "Top Serenidad",
     price: 30000,
     imageUrl: sale002,
     category: "cropTop",
@@ -184,7 +184,7 @@ export const cardDataSale = [
   },
   {
     id: uuidv4(),
-    title: "Crop Top Iluminación",
+    title: "Top Iluminación",
     price: 30000,
     imageUrl: sale003,
     category: "cropTop",
@@ -192,7 +192,7 @@ export const cardDataSale = [
   },
   {
     id: uuidv4(),
-    title: "Crop Top Trascendencia",
+    title: "Top Trascendencia",
     price: 30000,
     imageUrl: sale004,
     category: "cropTop",
@@ -200,7 +200,7 @@ export const cardDataSale = [
   },
   {
     id: uuidv4(),
-    title: "Crop Top Gratitud",
+    title: "Top Gratitud",
     price: 30000,
     imageUrl: sale005,
     category: "cropTop",
@@ -208,7 +208,7 @@ export const cardDataSale = [
   },
   {
     id: uuidv4(),
-    title: "Crop Top Conciencia",
+    title: "Top Conciencia",
     price: 30000,
     imageUrl: sale006,
     category: "cropTop",

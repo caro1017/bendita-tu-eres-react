@@ -11,7 +11,7 @@
     }
 
     @media screen and (max-width: 500px) {
-        margin-left: 27rem;
+        margin-left: 25rem;
     }
 }
 
@@ -42,7 +42,7 @@
 
     @media screen and (max-width: 500px) {
         top: 2.3rem;
-        left: 28rem;
+        left: 26rem;
     }
 }
 

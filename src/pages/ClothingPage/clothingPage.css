@@ -9,9 +9,13 @@
 }
 
 .col-card {
+    flex: 0 0 calc(33.33% - 0); /* By default, display 3 cards per row */
+
+    @media (max-width: 768px) {
+        flex: 0 0 calc(50% - 0); /* On tablets, display 2 cards per row */
+    }
 
     @media (max-width: 500px) {
-        flex: 0 0 calc(50% - 0);
-        margin-left: 0;
+        flex: 0 0 calc(50% - 0); /* On mobiles, display 1 card per row */
     }
 }

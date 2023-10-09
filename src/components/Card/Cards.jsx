@@ -34,7 +34,7 @@ const Cards = ({
   return (
     <>
       <div className="container col">
-        <div className="container col s12 m2">
+        <div className="container">
           <div className="card">
             <div className="card-image materialboxed">
               <img src={urlImg} />
@@ -48,7 +48,7 @@ const Cards = ({
             </div>
 
             <div className="card-content">
-              <span className="card-title">{title}</span>
+              <h6>{title}</h6>
               <p>${price}</p>
             </div>
           </div>

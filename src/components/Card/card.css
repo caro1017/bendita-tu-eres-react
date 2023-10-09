@@ -1,13 +1,33 @@
 .card {
     width: 20rem;
 
+    @media screen and (max-width: 500px) {
+        width: 11rem;
+        margin-right: 1rem;
+    }
+
+}
+
+.card-image {
+    @media screen and (max-width: 500px) {
+        width: 100%;
+    }
+}
+
+.btn-floating.halfway-fab {
+
+
+    @media screen and (max-width: 500px) {
+        right: 10px;
+        bottom: -15px;
+    }
 }
 
 .card-icon {
     background-color: #E8AEB1;
 }
 
-.card-icon:hover{
+.card-icon:hover {
     background-color: #97989A;
 }
 
@@ -15,4 +35,21 @@
     color: #97989A;
 }
 
+.card .card-content {
+    @media screen and (max-width: 500px) {
+        padding: 1rem 1rem;
+    }
+}
 
+.card-content h6 {
+    @media screen and (max-width: 500px) {
+        font-size: 1rem;
+    }
+}
+
+.card-content p {
+    @media screen and (max-width: 500px) {
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+}

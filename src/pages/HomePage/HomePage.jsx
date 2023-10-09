@@ -17,7 +17,7 @@ const HomePage = () => {
   return (
     <>
       <div className="containerStyled">
-        <div className="contentStyled">
+        <div className="contentStyled container">
           <div className="contentTitle">
             <Title title="Belleza" className="textStyled" />
             <Title title="Estilo" className="textStyledCenter" />

@@ -79,9 +79,9 @@ const ShoppingCart = ({
                       </span>
                     </div>
 
-                    <div className="container right">
+                    <div>
                       <i
-                        className="material-icons right icon-close"
+                        className="material-icons icon-close"
                         onClick={() => onDeleteProduct(product)}
                       >
                         highlight_off

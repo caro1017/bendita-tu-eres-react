@@ -34,7 +34,7 @@ const Cards = ({
   return (
     <>
       <div className="container col">
-        <div className="container">
+        <div>
           <div className="card">
             <div className="card-image materialboxed">
               <img src={urlImg} />

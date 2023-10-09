@@ -1,3 +1,10 @@
+.container-card {
+  
+    @media screen and (max-width: 500px){
+        justify-content: center;
+    }
+}
+
 .card {
     width: 20rem;
 
@@ -15,8 +22,6 @@
 }
 
 .btn-floating.halfway-fab {
-
-
     @media screen and (max-width: 500px) {
         right: 10px;
         bottom: -15px;

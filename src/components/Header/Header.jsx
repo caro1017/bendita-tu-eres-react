@@ -8,7 +8,6 @@ const Header = ({ src, title }) => {
       <div className="container-header">
         <img src={src} className="styleImg" />
         <Title title={title} className="styleTitle" />
-        <i className='bx bx-chevrons-down styleIcon' ></i>
       </div>
     </>
   );

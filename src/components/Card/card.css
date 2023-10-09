@@ -1,7 +1,7 @@
-.container-card {
-  
+.container-card {  
     @media screen and (max-width: 500px){
         justify-content: left;
+        margin-left: 0.2rem;
     }
 }
 
@@ -10,7 +10,7 @@
 
     @media screen and (max-width: 500px) {
         width: 11rem;
-        margin-right: 0.8rem;
+        margin-right: 0.5rem;
     }
 
 }

@@ -63,7 +63,7 @@ export const Menu = () => {
       </nav>
       {/* Contenido menu movil */}
       <ul
-        className={`sidenav ${open ? "open" : ""}, nav-link`}
+        className={`sidenav ${open ? "open-menu" : "close-menu"} nav-link`}
         id="mobile-demo"
       >
         {renderMenuItems()}

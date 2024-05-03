@@ -72,8 +72,15 @@
     }
 }
 
+/* Clase para la animación de abrir el menú móvil */
+.open-menu {
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Clase para la animación de cerrar el menú móvil */
+  .close-menu {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
 
-.nav-link li a:hover {
-    background-color: transparent;
-    color: #E8AEB1;
-}
